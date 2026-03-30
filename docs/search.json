@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "modules/week1/week1.html",
+    "href": "modules/week1/week1.html",
+    "title": "Crab Projects Intro and Management with GitHub",
+    "section": "",
+    "text": "Gain an introduction to the crab projects\nReview the structure, logistics, and expectations of the lab\nJoin the FISH460-2026 GitHub Organization"
+  },
+  {
+    "objectID": "modules/week1/week1.html#what-is-git",
+    "href": "modules/week1/week1.html#what-is-git",
+    "title": "Crab Projects Intro and Management with GitHub",
+    "section": "What is Git?",
+    "text": "What is Git?\nGitHub uses Git, a distributed version control system, to enable developers to collaborate efficiently and maintain a history of their code changes.\n\n\n\n\n\n\nNote\n\n\n\nGit is a software that you download and install on your computer, while GitHub is a web-based platform that hosts Git repositories. Git is the messenger that allows you to “talk” between your R project and the GitHub repository where your code is stored."
+  }
+]

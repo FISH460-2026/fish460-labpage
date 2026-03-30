@@ -1,0 +1,15 @@
+---
+title: "Refine Experiment & Write Letter of Intent (LOI)"
+subtitle: "Week 3 Lab"
+image: "lab_loading.png"
+
+draft: false
+
+about:
+  id: description
+  template: trestles
+  image: "lab_loading.png"
+  
+page-layout: full
+title-block-banner: true  
+---

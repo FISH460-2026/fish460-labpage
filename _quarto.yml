@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Applied Marine Animal Physiology | FISH 460 Lab"
+  open-graph: true
+  page-navigation: true
+  site-url: https://github.com/FISH460-2026/fish460-labpage.git
+  repo-url: https://github.com/FISH460-2026/fish460-labpage.git
+
+  navbar:
+    background: primary
+    float: true
+    left:
+      - text: "Modules"
+        menu:
+          - text: "Week 1"
+            file: modules/week1/week1.qmd
+          - text: "Week 2"
+            file: modules/week2/week2.qmd
+          - text: "Week 3"
+            file: modules/week3/week3.qmd
+          - text: "Week 4"
+            file: modules/week4/week4.qmd 
+          - text: "Week 5"
+            file: modules/week5/week5.qmd
+          - text: "Week 6"
+            file: modules/week6/week6.qmd 
+          - text: "Week 7"
+            file: modules/week7/week7.qmd
+          - text: "Week 8"
+            file: modules/week8/week8.qmd
+          - text: "Week 9"
+            file: modules/week9/week9.qmd
+          - text: "Week 10"
+            file: modules/week10/week10.qmd
+    right:
+      - icon: github
+        href: "https://github.com/FISH460-2026/fish460-labpage.git"
+
+
+
+page-footer:
+  right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+#sidebar:
+#  pinned: true
+#  align: center
+#  style: "docked" # Or "floating" for more flexibility
+#  search: true
+#  collapse-level: 3
+#  contents:
+#    - href: index.qmd # index.html or index.qmd if building locally
+#      text: Modules
+        
+format:
+  html:
+    theme: journal
+    highlight-style: github
+    page-layout: article
+    toc: true
+    toc-depth: 2
+    toc-location: right
+    code-background: true
+    code-tools: 
+      source: true
+      toggle: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    reference-location: margin
+    citation-location: document

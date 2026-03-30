@@ -1,0 +1,88 @@
+---
+title: "Crab Projects Intro and Management with GitHub"
+subtitle: "Week 1 Lab"
+image: "week1.jpg"
+
+about:
+  id: description
+  template: trestles
+  image: "week1.jpg"
+  
+page-layout: full
+title-block-banner: true  
+---
+
+::: {#description}
+#### Learning Goals:
+
+1.  Gain an introduction to the crab projects
+
+2.  Review the structure, logistics, and expectations of the lab
+
+3.  Join the FISH460-2026 GitHub Organization
+:::
+
+# What is GitHub?
+
+GitHub is a web-based platform that provides version control and collaboration tools for software development projects. It allows multiple users to work on the same codebase, track changes, and manage different versions of their projects.
+
+::: callout-note
+You can think of GitHub as a "Google Drive for code" where you can store, share, and collaborate on coding projects with others. It's a tool that helps researchers make their data and analyses transparent and reproducible, which are key tenets of the scientific process!
+:::
+
+## What is Git?
+
+GitHub uses Git, a distributed version control system, to enable developers to collaborate efficiently and maintain a history of their code changes.
+
+::: callout-note
+Git is a software that you download and install on your computer, while GitHub is a web-based platform that hosts Git repositories. Git is the messenger that allows you to "talk" between your R project and the GitHub repository where your code is stored.
+:::
+
+# 1. Make a GitHub account
+
+-   Create (if you do not already have one) a [GitHub personal account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github "Link")
+
+-   Use your @uw email
+
+-   Choose your GitHub username
+
+    -   Your username is part of your professional online identity - choose it thoughtfully
+    -   Usernames are case-insensitive (e.g., `JohnDoe` is the same as `johndoe`), so using all lowercase is recommended
+
+-   Optionally apply to [GitHub Education](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)
+
+    -   signing up for a student account will give you access to free private repositories and other benefits.
+
+# 2. Give your GitHub username to the TA
+
+::: callout-important
+This needs to be done IN LAB!
+:::
+
+# 3.  Accept FISH460-2026 Org. Invite
+
+-   Check your @uw email for the invite to the `FISH460-2026` GitHub Organization and follow the prompts to accept the invitation
+
+::: callout-important
+This is your LAB 1 Assignment and is DUE by the end of Lab TODAY!
+:::
+
+# Next up ...
+
+Your next assignment is due before the start of Lab 2, and you will need time to complete it! Your annotated bibliographies need to include 8 peer-reviewed journal articles and 2 public media news articles.
+
+::: callout-important
+Print a hardcopy of your annotated bibliography to bring to Lab 2! You will need this to participate in the 'group speed dating' excercise during Lab 2 to establish your research teams.
+:::
+
+Have your computer and electronic copy with you as well (we will walk through 1. creating a git repo and 2. uploading these (along with your group LOI's) to your group repo during Lab 2)
+
+# Bonus
+
+[Washington Sea Grant European green crab Informational Handout](https://wsg.washington.edu/wordpress/wp-content/uploads/EGC-Informational-Handout.pdf)
+
+<object data="EGC-Informational-Handout.pdf" type="application/pdf" width="100%" height="500px">
+
+<p>Unable to display PDF file. <a href="../refs/ggplot theme system cheatsheet.pdf">Download</a> instead.</p>
+
+</object>

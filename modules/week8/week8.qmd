@@ -1,0 +1,15 @@
+---
+title: "Present Initial Results"
+subtitle: "Week 8 Lab"
+image: "lab_loading.png"
+
+draft: false
+
+about:
+  id: description
+  template: trestles
+  image: "lab_loading.png"
+  
+page-layout: full
+title-block-banner: true  
+---
