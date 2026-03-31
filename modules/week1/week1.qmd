@@ -22,6 +22,23 @@ title-block-banner: true
 3.  Join the FISH460-2026 GitHub Organization
 :::
 
+<object data="Lab_1.pdf" type="application/pdf" width="100%" height="500px">
+
+<p>Unable to display PDF file. <a href="Lab_1.pdf">Download</a> instead.</p>
+
+</object>
+
+{{< video https://www.youtube.com/watch?v=9nTqHyFFczI >}}
+
+::: callout-note
+### Download Lab 1 slides here:
+-[.pptx]("Lab_1.pptx")
+
+-[.pdf]("Lab_1.pdf")
+:::
+
+
+
 # What is GitHub?
 
 GitHub is a web-based platform that provides version control and collaboration tools for software development projects. It allows multiple users to work on the same codebase, track changes, and manage different versions of their projects.
@@ -83,6 +100,6 @@ Have your computer and electronic copy with you as well (we will walk through 1.
 
 <object data="EGC-Informational-Handout.pdf" type="application/pdf" width="100%" height="500px">
 
-<p>Unable to display PDF file. <a href="../refs/ggplot theme system cheatsheet.pdf">Download</a> instead.</p>
+<p>Unable to display PDF file. <a href="EGC-Informational-Handout.pdf">Download</a> instead.</p>
 
 </object>

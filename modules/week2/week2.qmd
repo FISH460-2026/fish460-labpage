@@ -1,9 +1,9 @@
 ---
-title: "Establish research teams & connect Git repo to R"
+title: "Establish research teams & make a Git repo"
 subtitle: "Week 2 Lab"
 image: "lab_loading.png"
 
-draft: true
+draft: false
 
 about:
   id: description
@@ -14,4 +14,26 @@ page-layout: full
 title-block-banner: true  
 ---
 
-![](lab_loading.png){fig-align="center"}
+::: {#description}
+#### Learning Goals:
+
+1.  Tour the lab equipment
+
+2.  Establish a research team
+
+3.  Make a team GitHub repo and upload LOI
+:::
+
+# 3. Make a team GitHub repository (repo)
+
+# Bonus
+
+## YouTube Videos
+
+{{< video https://youtu.be/e-EBXzDc1Bk?si=tcMcqODFxvSeSm6o >}}
+
+{{< https://youtu.be/ZLvzVSy-6BY?si=hE5W1Sx2WFsgujVS >}}
+
+- [Green Crab Invasion Hits Puget Sound](https://youtu.be/52NkcbA1FVY?si=Fgxi1avkgwQKFFQM)
+
+- [Sea otters credited with solving Elkhorn Slough's invasive green crab problem]()

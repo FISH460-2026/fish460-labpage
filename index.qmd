@@ -16,7 +16,7 @@ listing:
     - modules/week8/week8.qmd
     - modules/week9/week9.qmd
     - modules/week10/week10.qmd
-  sort: "false"
+  sort: false
   type: grid
   grid-item-align: center
   sort-ui: false
@@ -25,3 +25,12 @@ listing:
 ---
 
 Welcome to FISH 460 Lab - Applied Marine Animal Physiology
+
+::: {.content-full}
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vThzzvgiBScJFcbFF74XmA2oDFBtguUVHgXyjbX3KUUmtHFA1Dpo31DcGjmgDtodYi4j5ToGEUmKKrT/pubhtml?gid=2123122323&single=true&widget=true&headers=false"
+  width="100%" 
+  height="500"
+  style="border: none;">
+</iframe>
+:::

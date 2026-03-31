@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nEstablish research teams & make a Git repo\n\n\nWeek 2 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nRefine Experiment & Write Letter of Intent (LOI)\n\n\nWeek 3 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nProposal pitch & upload to GitHub\n\n\nWeek 4 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nExperiment records and data upload to GitHub\n\n\nWeek 5 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nFigure generation in R\n\n\nWeek 6 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical tests in R\n\n\nWeek 7 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nPresent Initial Results\n\n\nWeek 8 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience writing: a mini paper\n\n\nWeek 9 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience communication: research talks\n\n\nWeek 10 Lab\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "modules/week1/week1.html",
@@ -19,5 +19,19 @@
     "title": "Crab Projects Intro and Management with GitHub",
     "section": "What is Git?",
     "text": "What is Git?\nGitHub uses Git, a distributed version control system, to enable developers to collaborate efficiently and maintain a history of their code changes.\n\n\n\n\n\n\nNote\n\n\n\nGit is a software that you download and install on your computer, while GitHub is a web-based platform that hosts Git repositories. Git is the messenger that allows you to “talk” between your R project and the GitHub repository where your code is stored."
+  },
+  {
+    "objectID": "modules/week2/week2.html",
+    "href": "modules/week2/week2.html",
+    "title": "Establish research teams & make a Git repo",
+    "section": "",
+    "text": "Tour the lab equipment\nEstablish a research team\nMake a team GitHub repo and upload LOI"
+  },
+  {
+    "objectID": "modules/week2/week2.html#youtube-videos",
+    "href": "modules/week2/week2.html#youtube-videos",
+    "title": "Establish research teams & make a Git repo",
+    "section": "YouTube Videos",
+    "text": "YouTube Videos\n\n{{&lt; https://youtu.be/ZLvzVSy-6BY?si=hE5W1Sx2WFsgujVS &gt;}}\n\nGreen Crab Invasion Hits Puget Sound\nSea otters credited with solving Elkhorn Slough’s invasive green crab problem"
   }
 ]
