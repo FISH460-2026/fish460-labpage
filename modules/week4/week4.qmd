@@ -1,14 +1,36 @@
 ---
 title: "Proposal pitch & upload to GitHub"
 subtitle: "Week 4 Lab"
-image: "lab_loading.png"
+image: "yellow_shore_crab_hemigrapsus_oregonensis_id_odfw.jpg"
 
 draft: false
 about:
   id: description
   template: trestles
-  image: "lab_loading.png"
+  image: "yellow_shore_crab_hemigrapsus_oregonensis_id_odfw.jpg"
   
 page-layout: full
 title-block-banner: true  
 ---
+
+::: {#description}
+#### Lab Assignment:
+
+Each research team will present their 10-15 minutes proposal pitch presentation in Week 4 Lab. 
+
+#### 🎯 Lab Goals:
+
+1.  Actively listen to each research team's pitch
+
+2.  Provide constructive feedback to each research team on their pitch presentations
+
+3.  Identify exact tank setups for each research team
+    - Where their experimental tanks will be located (temperature)
+    - What salinities they will be using in their experimental tanks
+    - Any other relevant information about their experimental tanks (e.g., metals, added pollutants, habitat/substrate, EGC predator isolation, etc.)
+    
+4. Begin formatting data collection sheets
+  - Each team setup a shared Google Sheet to use for data collection
+
+:::
+
