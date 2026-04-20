@@ -1,5 +1,187 @@
 [
   {
+    "objectID": "modules/week3/week3.html",
+    "href": "modules/week3/week3.html",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "",
+    "text": "Each lab group will submit a single LOI by the end of Week 3 Lab by 1620 (4:20PM) to their group Git repository.\n\n\n\n\nDiscuss how we will use git and R to record and share our research process\nDiscuss constraints of experimental design\nLink the Broad Question –&gt; Data Needed –&gt; Experimental Design\nSubmit a Letter of Intent (LOI) for your team project proposal to your team git repository\nStart preparing for your team project proposal pitch presentation in Week 4 Lab"
+  },
+  {
+    "objectID": "modules/week3/week3.html#check-out-the-project-template-repo",
+    "href": "modules/week3/week3.html#check-out-the-project-template-repo",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Check out the project-template repo",
+    "text": "Check out the project-template repo\nUse the project-template repo as an example of how to structure your project repository on GitHub. This template includes folders for data, code, and documentation, as well as a README.md file that provides an overview of the project and instructions for how to use the repository.\n\n\n\n\n\n\nImportant\n\n\n\nIn Week 4 and 5 we will slowly learn how to edit these files by cloning our repository to RStudio!\n\n\nThe goal here is for your team to have a group landing page for your project, and individual manuscript pages in the notebooks folder.\nYour research team will use the gh-pages branch of your GitHub repository to create a project website that documents your research process and findings, and publishes your FINAL MINI PAPERS! This website can include information about your research question, experimental design, data collection methods, and results. You can also use the website to share code or data that you generate during your research process.\nThe webpage is automatically deployed when you make changes to your repo. The only files you need to change are the index.qmd or newly generated notebook/ *.qmd files"
+  },
+  {
+    "objectID": "modules/week3/week3.html#update-readme",
+    "href": "modules/week3/week3.html#update-readme",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Update README",
+    "text": "Update README\nYour research team needs to update your git repo README.md file to include a brief description of your project. For now, keep this brief (1 sentence). This will help you keep track of your project and make it easier for others to understand what your project is about when they visit your GitHub repository. You can always update this later as your project evolves and you have more information to share about it."
+  },
+  {
+    "objectID": "modules/week3/week3.html#update-about",
+    "href": "modules/week3/week3.html#update-about",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Update About",
+    "text": "Update About\nYour research team needs to update the “About” section of your GitHub repository to include the names of the team members in the description field. This will help you keep track of your project and make it easier for me to know who is working on what!\nAlso click the Use your GitHub Pages website check box to link your project webpage (which is automatically being generated and deployed!)"
+  },
+  {
+    "objectID": "modules/week3/week3.html#study-specimens-n",
+    "href": "modules/week3/week3.html#study-specimens-n",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Study specimens (n)",
+    "text": "Study specimens (n)\n\n24 total Carcinus maenas crabs available for experimentation across AA and AB lab sections\n\n(with 11 total teams, that makes ~2 per team!)\n\n~240 total Hemigrapsus oregonensis crabs available for experimentation across AA and AB lab sections\n\n(with 11 total teams, that makes ~22 per team!)"
+  },
+  {
+    "objectID": "modules/week3/week3.html#time",
+    "href": "modules/week3/week3.html#time",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Time",
+    "text": "Time\n\n9 hours of data collection per team (3 hours per day for 3 lab days)\n\nunless your research team wants to collect data outside of lab time (which is possible, but you will need to make arrangements with the TA to access the lab and animals outside of scheduled lab time) The lab is NOT designed for you to do this to be successful and receive full marks, but it is an option if you want to collect more data than what is possible during lab time.\n\nRespirometry resazurin assay protocol from the Robert’s lab and a modified protocol for FISH 460 from Zach Bengtsson takes at least 1 hour of time in which crabs are set in isolated small plastic cups filled with a redox reactive dye solution that turns from blue to pink as the crab does metabolic respiration.\n\n\n\n\n\n\n\n\nAs the organism conducts metabolism, resazurin undergoes a stepwise reduction from its blue, non-fluorescent, oxidized form to pink, fluorescent, resorufin by NADH and reductases, producing a strong fluorescent response (Huffmyer et al. 2025)\n\nHuffmyer, Ariana S, Noah Ozguner, Madeline Baird, Colby Elvrum, Carolyn Kounellas, Dash Dicksion, Samuel J White, et al. 2025. “From Blue to Pink: Resazurin as a High-Throughput Proxy for Metabolic Rate in Oysters.” bioRxiv, November, 2025.11.06.686367. https://doi.org/10.1101/2025.11.06.686367.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nDoes the duration of your stress exposure match up with the timeline of physiological change in your response?\n\n\n\nex. If you heat-shock a crab for 10 minutes, and then try to measure the change in osmolality1 the whole-body osmolality has not yet had time to shift… the earliest measurable difference (speed of response) may be on the order of hours to days\n\n\n1 Osmolality, in milliosmoles per kilogram (mOsm/kg) is a measure of the total concentration of dissolved solutes—principally sodium Na+ and chloride Cl- ions, along with other electrolytes and organic solutes—within the crab’s blood. 1 osmole = 1 mole of osmotically active particles i.e. dissolved particles that contribute to osmotic pressure– anything that affects water movement across a membrane. This measurement is primarily used to assess the animal’s osmoregulatory status, specifically its ability to regulate its internal solute concentration in response to changes in the salinity of the surrounding water."
+  },
+  {
+    "objectID": "modules/week3/week3.html#sharing-tank-space",
+    "href": "modules/week3/week3.html#sharing-tank-space",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Sharing tank space",
+    "text": "Sharing tank space\n\n2 water baths available for experimentation across AA and AB lab sections!\n\n1 water bath for ambient temperature treatment\n\nThis means we can collectively pick 1 ambient temperature to use across all teams\n(e.g., 10°C)\n\n1 water bath for elevated temperature treatment\n\nThis means we can collectively pick 1 elevated temperature to use across all teams\n(e.g., 20-25°C?)\n\n1 ‘lobster control tank’ for a shared pool of control crabs at puget sound conditions"
+  },
+  {
+    "objectID": "modules/week3/week3.html#example2-confounding-variables",
+    "href": "modules/week3/week3.html#example2-confounding-variables",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Example2 confounding variables",
+    "text": "Example2 confounding variables\n\nCrabs are sensitive to stress → handling must be standardized\nMetabolic rates vary with size → take weights and normalize response variable by size!\nSex matters(?) → control or include as a co-variate!\nWill position in the temperature bath matter? → If so… randomize tank placement in temperature bath\nWhat other confounding variables can you think of? How can you randomize or control for these?\n\n\n\n\n\n\n\nImportant\n\n\n\nExperimental design checklist:\n\nWhat is my hypothesis?\nWhat is my independent variable?\nWhat is my response variable?\nHow quickly does my response variable respond?\nWhat are my controls?\nWhat is my unit of replication (crab or tank)?\nHow many replicates per treatment?\nHow am I randomizing?\nWhat could confound this?"
+  },
+  {
+    "objectID": "modules/week3/week3.html#week3-lab-assignment",
+    "href": "modules/week3/week3.html#week3-lab-assignment",
+    "title": "Refine Experiment & Write Letter of Intent (LOI)",
+    "section": "Week3 Lab Assignment",
+    "text": "Week3 Lab Assignment\nIn the world of scientific research, many projects begin with a Request for Proposals (RFP). An RFP is a formal document issued by a funding agency or organization that outlines a specific problem or research area they want to address. It includes background information, goals, and the kinds of projects or solutions they are looking to fund. Researchers respond to RFPs by developing proposals tailored to the outlined needs and priorities. In this case the International Society for Crustacean Ecophysiology is a made up funding agency that has issued an RFP for research on the physiological responses of crabs to environmental stressors.\n\n\nUnable to display PDF file. Download instead.\n\n\nBefore submitting a full proposal, (in your case, your group will ‘pitch’ their full proposal as a slide deck presentation) many funders require a Letter of Intent (LOI). This is a brief document that outlines the research team’s proposed project, including the objectives, significance, and general approach. The LOI helps funders gauge interest and ensure the proposed ideas align with the goals of the RFP before reviewing full proposals.\nYour Task:\nFor this assignment, your group will work together to fill out the Letter of Intent (LOI) template in response to a provided RFP. This RFP will outline a broad scientific challenge or research need, and your LOI should be a direct and thoughtful response to that call.\nYour LOI should include:\n\nA clear project title\nA brief description of your guiding research question\nHow your project aligns with the RFP\nThe objectives and potential impact of your proposed work\nThe general methodology or approach you plan to use\n\nWhy this matters: This exercise mirrors real-world scientific funding processes and helps you develop skills in clearly framing your ideas, aligning them with broader goals, and communicating your intent effectively to a specific audience.\n\nDownload RFP & LOI template\n\nRFP\nLOI Template\n\nBe sure to read the RFP carefully and tailor your LOI to fit its scope and priorities."
+  },
+  {
+    "objectID": "modules/week2/week2.html",
+    "href": "modules/week2/week2.html",
+    "title": "Establish research teams & make a Git repo",
+    "section": "",
+    "text": "Your Lab 2 assignment is due before the start of Lab 2, and you will need time to complete it! Your annotated bibliographies need to include 8 peer-reviewed journal articles and 2 public media news articles.\n\n\n\n\n\n\nImportant\n\n\n\nPrint a hardcopy of your annotated bibliography to bring to Lab 2! You will need this to participate in the ‘group speed dating’ excercise during Lab 2 to establish your research teams.\n\n\nHave your computer and electronic copy with you as well!\n\n\n\n\nWHAT: Identify research topics\nWHO: Establish a research team\n\nMake a team GitHub repository from a template\n\nHOW: Lab equipment scavenger hunt to explore…\n\nHow could you control your independent variable?\nHow could you measure your dependent variable?"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-1-write-your-research-questions-on-sticky-notes",
+    "href": "modules/week2/week2.html#step-1-write-your-research-questions-on-sticky-notes",
+    "title": "Establish research teams & make a Git repo",
+    "section": "✍️ Step 1: Write your research questions on sticky notes",
+    "text": "✍️ Step 1: Write your research questions on sticky notes\nTake some time to review your annotated bibliography and think about the research questions that interest you."
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-2-form-groupings-of-sticky-notes-with-similar-questions",
+    "href": "modules/week2/week2.html#step-2-form-groupings-of-sticky-notes-with-similar-questions",
+    "title": "Establish research teams & make a Git repo",
+    "section": "Step 2: Form groupings of sticky notes with similar questions",
+    "text": "Step 2: Form groupings of sticky notes with similar questions\nDo this by TALKING to your classmates. ASK EACH OTHER:\n\nWhat questions did other students explore?\nCan we collectively group the various questions into broad research themes?\nWhich theme interests you? Which theme do the questions you like to ask fall under?"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-3-identify-broad-guiding-research-questions-from-the-research-question-themes",
+    "href": "modules/week2/week2.html#step-3-identify-broad-guiding-research-questions-from-the-research-question-themes",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🖌️Step 3: Identify broad guiding research questions from the research question themes",
+    "text": "🖌️Step 3: Identify broad guiding research questions from the research question themes\n\nWhat broad guiding research question is the root of the research theme?\nIs the broad research question applied? How does knowing the answer to the question practically help marine resource managers/ shellfish business owners/ habitat restoration planners/ etc. etc. ?"
+  },
+  {
+    "objectID": "modules/week2/week2.html#objective",
+    "href": "modules/week2/week2.html#objective",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🎯 Objective",
+    "text": "🎯 Objective\nForm a research team (3–4 students) based on shared interests, compatible work styles, and complementary skills—not just who you already know."
+  },
+  {
+    "objectID": "modules/week2/week2.html#activity-overview",
+    "href": "modules/week2/week2.html#activity-overview",
+    "title": "Establish research teams & make a Git repo",
+    "section": "⏱️ Activity Overview",
+    "text": "⏱️ Activity Overview\nYou will rotate through a series of short (3–5 minute) conversations with classmates. Think of this like academic speed dating.\nYour goal is to identify people you:\n\nAre excited to work with\nCan communicate well with\nComplement (not duplicate) in skills"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-1-prepare-5-minutes",
+    "href": "modules/week2/week2.html#step-1-prepare-5-minutes",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🧭 Step 1: Prepare (5 minutes)",
+    "text": "🧭 Step 1: Prepare (5 minutes)\nBefore rotations begin, reflect and jot down:\n1. Research Interests\n\nWhat topics excite you?\nWhat kinds of questions do you want to ask?\n\n2. Work Style\n\nStructured vs flexible?\nEarly starter vs deadline-driven?\nHow much time do you allocate to this project?\n\n3. Motivation & Goals\n\nWhat do you want out of this project/course?\nGrade-focused, skill-building, curiosity-driven?\n\n4. Technical Skills (be honest!)\n\nR experience (none → advanced)\nGit/GitHub experience (none → confident)\nAny other relevant skills?"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-2-speed-rounds-3040-minutes",
+    "href": "modules/week2/week2.html#step-2-speed-rounds-3040-minutes",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🔁 Step 2: Speed Rounds (30–40 minutes)",
+    "text": "🔁 Step 2: Speed Rounds (30–40 minutes)\nYou will rotate partners (find groups of 2 to 3 students!) every few minutes.\nFor each person, quickly discuss:\n\n💬 Core Questions\n\nWhat are you interested in studying?\nHow do you typically work on projects?\nWhat motivates you in this class?\nWhat’s your experience with R and Git?\n\n\n\n📝 While you talk, rate them (quick gut check):\n\n\n\nCategory\nNotes\n\n\n\n\nResearch interest alignment\n\n\n\nWork style compatibility\n\n\n\nMotivation match\n\n\n\nSkill complementarity\n\n\n\n\n⚠️ Important:\nFor R/Git skills, do NOT just pick people at your same level.\n👉 Strong teams mix beginners and experienced users."
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-3-evaluate-your-options-10-minutes",
+    "href": "modules/week2/week2.html#step-3-evaluate-your-options-10-minutes",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🧠 Step 3: Evaluate Your Options (10 minutes)",
+    "text": "🧠 Step 3: Evaluate Your Options (10 minutes)\nAfter rotations, review your notes, talk with potential teammates!\nAsk yourself:\n\nWho did I feel most comfortable communicating with?\nWho shares my interests (or complements them)?\nDoes this group balance skills (not all beginners or all experts)?\nWould I trust this group to follow through?"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-4-form-teams",
+    "href": "modules/week2/week2.html#step-4-form-teams",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🤝 Step 4: Form Teams",
+    "text": "🤝 Step 4: Form Teams\nForm a team of 3–4 students.\n\n✅ A strong team should have:\n\n✔ Shared or compatible research interests\n✔ Compatible work styles\n✔ Similar levels of commitment/motivation\n✔ Mixed R/Git experience levels"
+  },
+  {
+    "objectID": "modules/week2/week2.html#common-pitfalls-to-avoid",
+    "href": "modules/week2/week2.html#common-pitfalls-to-avoid",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🚨 Common Pitfalls to Avoid",
+    "text": "🚨 Common Pitfalls to Avoid\n\n❌ Choosing only your friends\n❌ Ignoring work style differences\n❌ Forming a team with identical skill levels\n❌ Prioritizing “easy” over “effective”"
+  },
+  {
+    "objectID": "modules/week2/week2.html#pro-tip",
+    "href": "modules/week2/week2.html#pro-tip",
+    "title": "Establish research teams & make a Git repo",
+    "section": "💡 Pro Tip",
+    "text": "💡 Pro Tip\nThe best teams are not the most similar—they are the most balanced and communicative."
+  },
+  {
+    "objectID": "modules/week2/week2.html#final-thought",
+    "href": "modules/week2/week2.html#final-thought",
+    "title": "Establish research teams & make a Git repo",
+    "section": "🧩 Final Thought",
+    "text": "🧩 Final Thought\nYou’re not just picking teammates—you’re choosing collaborators for a real research experience.\nBe intentional."
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-5-submit-your-team",
+    "href": "modules/week2/week2.html#step-5-submit-your-team",
+    "title": "Establish research teams & make a Git repo",
+    "section": "📋 Step 5: Submit Your Team",
+    "text": "📋 Step 5: Submit Your Team\nOnce formed, come up to the TA and submit:\n\nTeam member names\nA short (2–3 sentence) justification:\n\nWhat is your guiding research question?\nHow is this applied?\n\n\n\n\n\n\n\n\nImportant\n\n\n\nOnly proceed from Step 5 to Step 6 once the TA has approved your team formations!"
+  },
+  {
+    "objectID": "modules/week2/week2.html#step-6-make-a-team-github-repository-repo",
+    "href": "modules/week2/week2.html#step-6-make-a-team-github-repository-repo",
+    "title": "Establish research teams & make a Git repo",
+    "section": "💻 Step 6: Make a team GitHub repository (repo)",
+    "text": "💻 Step 6: Make a team GitHub repository (repo)\nWe are going to use a template to create team project repositories on GitHub. This will be the place where today you will upload your annotated bibliographies, and eventually, your Letter of Intent (LOI), proposal pitch slide deck, experiment records, data, mini paper, and final presentation.\n\n\n\n\n\n\nTip\n\n\n\nGather your research team and work together around 1 laptop! As a team you only need to make 1 repo… it doesn’t matter who ‘drives’ but it would be helpful for the teammates to ‘navigate’ them with these instructions as you work together to make your repo.\n\n\n\nTo get a broad picture of the end goal for your project management, check out the quarto manuscript template. This is what your team will turn your research project into by the end of the quarter.\nNotice the Notebooks on the menu that hovers to the left of the manuscript content. Click on these and explore them too.\nNavigate to this link to Create a new GitHub repository from the template\n\n\n\n\n\n\n\n\nNote\n\n\n\nMake sure to toggle ‘include all branches’, use the drop down to select FISH460-2026 as the repo ‘owner’, and configure the visibility to ‘Public’\n\n\n\nChoose a repository name that reflects your research team’s guiding question and includes the lab section of your group (ex. crabby-patty-AA). Names should be all lowercase and use kebab-case-only … where all lowercase words are connected-with-hyphens. Make your research team’s repo name unique to be able to differentiate it easily from the ~14 other group repos that will be made in the FISH460-2026 organization. Brownie points for puns!\nOnce configured click Create repository\nYour repo should now exist with the FISH460-2026 organization. The benefit here is that this fosters extreme collaboration within and even between individuals! Everyone can see each other’s work.\n\n\n\n\n\n\nImportant\n\n\n\nThe person who created the repo is the admin and has to invite the other research team members as collaborator to the repo. To do this, click on Settings in the menu bar of your repo, then click Manage access from the left hand menu, then click Invite a collaborator and search for your team members by their GitHub username to invite them to the repo. Set each team member as a repo admin.\nNow each member of the research team should be able to access the repo. Test it out by each hopping on your laptops, heading to the GitHub FISH460-2026 organization and uploading your anYnotated bibliography document (in whatever file format you’ve got.. .doc, .docx, .pdf, .md, .txt… whatever!)\n\n\nEach member of the research team navigate to your team repo and click the Add Files drop down and select Upload Files\n\n\n\nDrag and drop your annotated bibliography file to your team’s repo\n\n\n\n\n\n\n\n\nTip\n\n\n\nAdd a commit message… a note about what you did that lives with the version of the file that you uploaded. An example might be “sarah’s anno bib initial upload during lab 2” … then click Commit changes\n\n\nYou’ll notice when you navigate back to your repo root (the umbrella folder that contains your research team repo) your file is now uploaded to the repository. In future weeks, we will learn how to organize your files, access and edit them from within RStudio, and push commits from your local RStudio interface back to GitHub.\n\n\n\n\n\n\nImportant\n\n\n\nLab Break! Go take care of yourself and touch grass for 10 minutes between 1520-1530 (3:20 - 3:30PM) … Come back energized by 1530 (3:30PM)"
+  },
+  {
+    "objectID": "modules/week2/week2.html#week3-lab-assignment",
+    "href": "modules/week2/week2.html#week3-lab-assignment",
+    "title": "Establish research teams & make a Git repo",
+    "section": "Week3 Lab Assignment",
+    "text": "Week3 Lab Assignment\nIn the world of scientific research, many projects begin with a Request for Proposals (RFP). An RFP is a formal document issued by a funding agency or organization that outlines a specific problem or research area they want to address. It includes background information, goals, and the kinds of projects or solutions they are looking to fund. Researchers respond to RFPs by developing proposals tailored to the outlined needs and priorities.\nBefore submitting a full proposal, (in your case, your group will ‘pitch’ their full proposal as a slide deck presentation) many funders require a Letter of Intent (LOI). This is a brief document that outlines the research team’s proposed project, including the objectives, significance, and general approach. The LOI helps funders gauge interest and ensure the proposed ideas align with the goals of the RFP before reviewing full proposals.\nYour Task:\nFor this assignment, your group will work together to fill out the Letter of Intent (LOI) template in response to a provided RFP. This RFP will outline a broad scientific challenge or research need, and your LOI should be a direct and thoughtful response to that call.\nYour LOI should include:\n\nA clear project title\nA brief description of your guiding research question\nHow your project aligns with the RFP\nThe objectives and potential impact of your proposed work\nThe general methodology or approach you plan to use\n\nWhy this matters: This exercise mirrors real-world scientific funding processes and helps you develop skills in clearly framing your ideas, aligning them with broader goals, and communicating your intent effectively to a specific audience.\n\n\n\n\n\n\nNoteDownload RFP & LOI template\n\n\n\n\nRFP\nLOI Template\n\n\n\nBe sure to read the RFP carefully and tailor your LOI to fit its scope and priorities."
+  },
+  {
+    "objectID": "modules/week2/week2.html#youtube-videos-with-additional-background-information-about-european-green-crabs-on-the-us-west-coast",
+    "href": "modules/week2/week2.html#youtube-videos-with-additional-background-information-about-european-green-crabs-on-the-us-west-coast",
+    "title": "Establish research teams & make a Git repo",
+    "section": "YouTube Videos with additional background information about European green crabs on the US West Coast",
+    "text": "YouTube Videos with additional background information about European green crabs on the US West Coast\n\nPreventing a green crab invasion UW College of the Environment\n\n\n\nSea otters credited with solving Elkhorn Slough’s invasive green crab problem\n\n\n\nGreen Crab Invasion Hits Puget Sound"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "",
@@ -21,17 +203,17 @@
     "text": "What is Git?\nGitHub uses Git, a distributed version control system, to enable developers to collaborate efficiently and maintain a history of their code changes.\n\n\n\n\n\n\nNote\n\n\n\nGit is a software that you download and install on your computer, while GitHub is a web-based platform that hosts Git repositories. Git is the messenger that allows you to “talk” between your R project and the GitHub repository where your code is stored."
   },
   {
-    "objectID": "modules/week2/week2.html",
-    "href": "modules/week2/week2.html",
-    "title": "Establish research teams & make a Git repo",
+    "objectID": "modules/week2/Letter_of_Intent_Template.html",
+    "href": "modules/week2/Letter_of_Intent_Template.html",
+    "title": "",
     "section": "",
-    "text": "Tour the lab equipment\nEstablish a research team\nMake a team GitHub repo and upload LOI"
+    "text": "Code\n\n\n\n\nLetter of Intent: A letter of intent lets funding organizations know to expect a proposal from you. Oftentimes, this document is used to initially assess whether or not your research applies to a call for proposals. Think of this as the first step in the process of applying for research funding.\nThis template should be filled in by the end of the lab and submitted for grading. For this assignment, each group member will research current scientists working in the field of ecophysiology. Try to find someone working on projects you’re interested in and fill in the following information as though you are affiliated with their institution. Multiple affiliations are fine, and each group member should choose a scientist in line with their own interests. During the lab, we will discuss career trajectories in ecophysiology.\n[Group Names First and Last]\n[Department or Research Groups]\n[Institution/Organization Name]\n[Date]\n\nTo:\nProgram Officers: José Guzmán, PhD, Megan Ewing, Sarah Tanja, Andy Nutzhorn\nFunding Organization: International Society of Crustacean Ecophysiology\nProgram Title: Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas: Linking Mechanisms to Management in a Changing Coastal Environment\n\nSubject: Letter of Intent to Submit a Proposal – Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas\nDear [Program Officer’s Name],\nI am writing to formally express my intent to submit a proposal in response to the RFP titled “Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas: Linking Mechanisms to Management in a Changing Coastal Environment.”\nOur proposed project, tentatively titled “[Insert Working Title]”, will address the following thematic area(s) of the RFP:\n\n[e.g., Climate Change and Crab Fisheries]\n[e.g., Applied Stress Physiology of Marine Invertebrates]\n\nThis project will investigate [brief 2–3 sentence summary of the research question and applied relevance—for example: physiological thresholds of H. oregonensis under temperature and salinity stress and implications for shellfish habitat restoration planning].\nThe anticipated Principal Investigators will be [Full Group Names]. Our research approach emphasizes ecologically meaningful physiological endpoints with direct application to coastal resource management and climate adaptation.\nWe appreciate this opportunity to contribute to applied coastal science and would be happy to provide any additional information if needed prior to full proposal submission.\nSincerely,\n[Your Names]"
   },
   {
-    "objectID": "modules/week2/week2.html#youtube-videos",
-    "href": "modules/week2/week2.html#youtube-videos",
-    "title": "Establish research teams & make a Git repo",
-    "section": "YouTube Videos",
-    "text": "YouTube Videos\n\n{{&lt; https://youtu.be/ZLvzVSy-6BY?si=hE5W1Sx2WFsgujVS &gt;}}\n\nGreen Crab Invasion Hits Puget Sound\nSea otters credited with solving Elkhorn Slough’s invasive green crab problem"
+    "objectID": "modules/week3/Letter_of_Intent_Template.html",
+    "href": "modules/week3/Letter_of_Intent_Template.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\nLetter of Intent: A letter of intent lets funding organizations know to expect a proposal from you. Oftentimes, this document is used to initially assess whether or not your research applies to a call for proposals. Think of this as the first step in the process of applying for research funding.\nThis template should be filled in by the end of the lab and submitted for grading. For this assignment, each group member will research current scientists working in the field of ecophysiology. Try to find someone working on projects you’re interested in and fill in the following information as though you are affiliated with their institution. Multiple affiliations are fine, and each group member should choose a scientist in line with their own interests. During the lab, we will discuss career trajectories in ecophysiology.\n[Group Names First and Last]\n[Department or Research Groups]\n[Institution/Organization Name]\n[Date]\n\nTo:\nProgram Officers: José Guzmán, PhD, Megan Ewing, Sarah Tanja, Andy Nutzhorn\nFunding Organization: International Society of Crustacean Ecophysiology\nProgram Title: Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas: Linking Mechanisms to Management in a Changing Coastal Environment\n\nSubject: Letter of Intent to Submit a Proposal – Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas\nDear [Program Officer’s Name],\nI am writing to formally express my intent to submit a proposal in response to the RFP titled “Applied Comparative Ecophysiology of Hemigrapsus oregonensis and Carcinus maenas: Linking Mechanisms to Management in a Changing Coastal Environment.”\nOur proposed project, tentatively titled “[Insert Working Title]”, will address the following thematic area(s) of the RFP:\n\n[e.g., Climate Change and Crab Fisheries]\n[e.g., Applied Stress Physiology of Marine Invertebrates]\n\nThis project will investigate [brief 2–3 sentence summary of the research question and applied relevance—for example: physiological thresholds of H. oregonensis under temperature and salinity stress and implications for shellfish habitat restoration planning].\nThe anticipated Principal Investigators will be [Full Group Names]. Our research approach emphasizes ecologically meaningful physiological endpoints with direct application to coastal resource management and climate adaptation.\nWe appreciate this opportunity to contribute to applied coastal science and would be happy to provide any additional information if needed prior to full proposal submission.\nSincerely,\n[Your Names]"
   }
 ]

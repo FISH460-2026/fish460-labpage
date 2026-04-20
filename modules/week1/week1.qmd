@@ -13,7 +13,7 @@ title-block-banner: true
 ---
 
 ::: {#description}
-#### Learning Goals:
+#### Lab Goals:
 
 1.  Gain an introduction to the crab projects
 
@@ -22,6 +22,7 @@ title-block-banner: true
 3.  Join the FISH460-2026 GitHub Organization
 :::
 
+# Lab slides
 <object data="Lab_1.pdf" type="application/pdf" width="100%" height="500px">
 
 <p>Unable to display PDF file. <a href="Lab_1.pdf">Download</a> instead.</p>
@@ -32,9 +33,9 @@ title-block-banner: true
 
 ::: callout-note
 ### Download Lab 1 slides here:
--[.pptx]("Lab_1.pptx")
+-[Lab1.pptx]("Lab_1.pptx")
 
--[.pdf]("Lab_1.pdf")
+-[Lab1.pdf]("Lab_1.pdf")
 :::
 
 
