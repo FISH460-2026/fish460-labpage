@@ -17,17 +17,21 @@ title-block-banner: true
 ::: {#description}
 #### Lab Assignment:
 
-Each research team will link their data sheet(s) and upload photographs, notes on methods, and protocols to their github repo README in Week 5 Lab.
+Each research team member will link their data sheet(s) and upload notes on experimental setup, methods, and protocols to their github repo README in Week 5 Lab. **Each member needs to upload at least 1 item.** You will be graded individually for checking this off.
 
 #### 🎯 Lab Goals:
 
-1.  Set up exeriments
+1.  Resazurin demo
 
-2.  Take baseline data measurements (if needed)
+2.  Hemolymph extraction demo
 
-3.  Populate data sheets (data entry!)
+3.  Osmolality reading demo
 
-4.  Record methods with photographs and written protocols
+4.  Set up exeriment
+
+5.  Set up data sheets
+
+6.  Record methods with photographs and written protocols
 :::
 
 # Resazurin protocol, a measure of metabolic activity
@@ -38,9 +42,9 @@ Resazurin is a blue redox-sensitive dye that is reduced by cellular respiration 
 
 Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm). The amount of pink resorufin produced is directly proportional to the metabolic activity of the cells. You can learn more about how the Robert's Lab is implementing easy resazurin metabolism assays for oysters [here](https://oyster.pink/).
 
--   [ ] Lay out a plastic cup or beaker (depending on size of crab) for each crab that is undergoing the metabolic activity resazurin trial
+-   [ ] Lay out a 6-well plate, plastic cup, or beaker (depending on size of crab) for each crab that is undergoing the metabolic activity resazurin trial
 
--   [ ] Lay out an additional 3 cups for your blanks
+-   [ ] Lay out an additional chamber as a blank (one at least for each trial!)
 
 -   [ ] Map out your 96 well plate
 
@@ -62,7 +66,7 @@ Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm
 
 -   [ ] Don lab gloves!
 
--   [ ] Fill each cup with **35 mL** of resazurin working solution, if needed, add just enough to submerge any larger crabs. Record volumes for each adjusted cup.
+-   [ ] Fill each 6 well plate with **8 mL** of resazurin working solution, if needed, add just enough to submerge any larger crabs in larger chambers. Record volumes for each adjusted cup.
 
 -   [ ] Pull `T0` measurement. Pipette **200 𝛍L** aliquots from each cup, and place them in your 96 well plate
 
