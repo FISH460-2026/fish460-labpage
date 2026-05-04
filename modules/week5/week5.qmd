@@ -1,5 +1,5 @@
 ---
-title: "Experiment records and data upload to GitHub"
+title: "Demo Day! Experiment records and data upload to GitHub"
 subtitle: "Week 5 Lab"
 image: "european_green_crab_carcinus_maenas_id_odfw.jpg"
 
@@ -74,7 +74,7 @@ Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm
 
 -   [ ] Wait 30 minutes
 
--   [ ] Pull `T1` measurement. Pipette **200 𝛍L** aliquots from each cup, and place them in your 96 well plate
+-   [ ] Pull `T1` measurement. Pipette **200 𝛍L** aliquots from each cup *MAKING SURE TO CHANGE TIPS IN BETWEEN* , and place them in your 96 well plate
 
 -   [ ] Wait 30 minutes
 
