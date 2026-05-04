@@ -70,7 +70,7 @@ Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm
 
 -   [ ] Pull `T0` measurement. Pipette **200 𝛍L** aliquots from each cup, and place them in your 96 well plate
 
--   [ ]  Place 1 crab in each cup or beaker, start your timer! 🦀⏲️
+-   [ ] Place 1 crab in each cup or beaker, start your timer! 🦀⏲️
 
 -   [ ] Wait 30 minutes
 
