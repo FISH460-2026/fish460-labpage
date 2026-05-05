@@ -64,6 +64,8 @@ Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm
 
 -   [ ] Fill in the datasheet with your 96 well plate map info! Add any additional metadata per your research. You will reuse this same sheet for each week of data collection!
 
+-   [ ] Label your 96 well plate with tape, indicate your team name, date, plate number (if multiple plates), and any other relevant info
+
 -   [ ] Show the TA your 96 well plate map and datasheet... only THEN will you get resazurin working solution!
 
 -   [ ] Don lab gloves!
@@ -91,6 +93,8 @@ Resorufin is pink and highly fluorescent (excitation \~570 nm, emission \~585 nm
 -   [ ] Rinse crabs in seawater a 2nd time
 
 -   [ ] Return them to experimental conditions
+
+-   [ ] Clean up your workspace and dispose of resazurin waste by rinsing it down the lab sink with the water running. Thoroughly rinse all plates, cups, beakers, etc. and leave out to dry and reuse. 
 
 ### Hemolymph extraction
 Hemolymph is the circulatory fluid of invertebrates, analogous to blood in vertebrates. It contains cells and proteins that are involved in immune responses, nutrient transport, and other physiological processes. Hemolymph extraction allows researchers to analyze these components to understand the health and immune status of the crabs.
