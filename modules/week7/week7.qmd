@@ -33,6 +33,10 @@ Each research team member will upload an initial figure generated in R to their 
 
 6.  Upload draft data figures into github repo
 
+::: callout-important
+Ask for help from your TA and from your peers! This is a steep learning curve, and I expect the process to be at least a little frustrating because you are jumping straight into the deep end of the pool so to speak... We are all learning together and we are here to support each other. Don't hesitate to ask questions or seek guidance... These steps are bare-bones and are meant to be a starting point for you to build on and customize as you learn more about data visualization in R. The most important thing is to get something up on your GitHub repo so that you can share it with your team and get feedback on it!
+:::
+
 :::
 
 # Data Visualization Workflow Checklist
@@ -94,10 +98,10 @@ In your files view pane, navigate to the code/ folder and open a new .Rmd or .qm
 
 ### Install tidyverse
 
--   [ ] In the Console, run `r install.packages("tidyverse")` 
+-   [ ] In the Console, run `install.packages("tidyverse")` 
 
 ### Load tidyverse
--   [ ] After installation finishes, load the package by inserting a code chunk and running `r library(tidyverse)`
+-   [ ] After installation finishes, load the package by inserting a code chunk and running `library(tidyverse)`
 
 ::: callout-note
 You can insert a code chunk into a .Rmd or .qmd file with the hotkey `Ctrl + Alt + I` (Windows) or `Cmd + Option + I` (MacOS).
@@ -108,7 +112,7 @@ You can insert a code chunk into a .Rmd or .qmd file with the hotkey `Ctrl + Alt
 
 ### Read CSV files
 
--   [ ] Use `read_csv()` from tidyverse to import data
+-   [ ] Use `read_csv()` from tidyverse to import data! This is IMPORTANT because it makes your data import process reproducible and allows you to easily share your code with others. If you just open the CSV file in Excel and copy-paste it into R, that is not a reproducible workflow and it will be impossible for others to get your data into R if they are running a copy of your code.
 
 Example:
 
@@ -121,11 +125,14 @@ my_data <- read_csv("data/my_data.csv")
 ::: callout-note
 Pay attention to file paths! The path is relative to the location of your .Rmd or .qmd file. If your data file is in a different folder, you need to include the folder name in the path (e.g., `data/my_file.csv` mean that the file is in the `data/` folder and your code file is in the code folder which is at the same level as the data folder).
 
+```text
 my-data-project/
 ├── data/my_data.csv
 ├── figures/
 ├── code/draft_figure.qmd
 └── README.md
+```
+
 :::
 
 ### Check the imported data
