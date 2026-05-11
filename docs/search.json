@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "modules/week7/week7.html",
+    "href": "modules/week7/week7.html",
+    "title": "Initial data viz in R",
+    "section": "",
+    "text": "Each research team member will upload an initial figure generated in R to their github repo README in Week 7 Lab. Each member needs to upload at least 1 figure. You will be graded individually for checking this off.\n\n\n\n\nCollect data as per your research team’s plan\nDownload data files\nLoad data into R\nReshape data for plotting\nMake an initial figure\nUpload draft data figures into github repo"
+  },
+  {
+    "objectID": "modules/week7/week7.html#download-required-software",
+    "href": "modules/week7/week7.html#download-required-software",
+    "title": "Initial data viz in R",
+    "section": "1. Download Required Software",
+    "text": "1. Download Required Software\n\nInstall R\n\nGo to the https://cran.r-project.org/\nDownload the version for your operating system:\n\nWindows\nMacOS\nLinux\n\nRun the installer and follow the default installation steps\n\n\n\nInstall RStudio\n\nGo to https://posit.co/download/rstudio-desktop/\nDownload the free version of RStudio Desktop\nInstall RStudio after R is already installed"
+  },
+  {
+    "objectID": "modules/week7/week7.html#open-rstudio-and-create-an-rstudio-project",
+    "href": "modules/week7/week7.html#open-rstudio-and-create-an-rstudio-project",
+    "title": "Initial data viz in R",
+    "section": "2. Open RStudio and Create an RStudio Project",
+    "text": "2. Open RStudio and Create an RStudio Project\n\nIn RStudio:\n\nFile → New Project\nExisting Directory OR New Directory\n\nSelect your project folder (or create a new one)\n\nUsing an RStudio Project helps keep file paths organized and reproducible."
+  },
+  {
+    "objectID": "modules/week7/week7.html#download-and-organize-data-files",
+    "href": "modules/week7/week7.html#download-and-organize-data-files",
+    "title": "Initial data viz in R",
+    "section": "3. Download and Organize Data Files",
+    "text": "3. Download and Organize Data Files\n\nDownload your data files as .csv !\nCreate folders in your project to keep things organized\n\nExample project structure:\nmy-data-project/\n├── data/\n├── figures/\n├── code/\n└── README.md\n\nPlace all CSV files into the data/ folder\n\n\n\n\n\n\n\nImportant\n\n\n\nYou cannot drag and drop files from your computer into RStudio. You need to use the file explorer on your computer to move files into the correct folder in your project directory! Once files are in the correct folder, you can use RStudio’s file pane to navigate to the file and click on it to open it and edit it in RStudio."
+  },
+  {
+    "objectID": "modules/week7/week7.html#open-an-.rmd-or-.qmd-file-install-required-packages",
+    "href": "modules/week7/week7.html#open-an-.rmd-or-.qmd-file-install-required-packages",
+    "title": "Initial data viz in R",
+    "section": "4. Open an .Rmd or .qmd file & Install Required Packages",
+    "text": "4. Open an .Rmd or .qmd file & Install Required Packages\nIn your files view pane, navigate to the code/ folder and open a new .Rmd or .qmd file by clicking the New File dropdown\n\nInstall tidyverse\n\nIn the Console, run r install.packages(\"tidyverse\")\n\n\n\nLoad tidyverse\n\nAfter installation finishes, load the package by inserting a code chunk and running r library(tidyverse)\n\n\n\n\n\n\n\nNote\n\n\n\nYou can insert a code chunk into a .Rmd or .qmd file with the hotkey Ctrl + Alt + I (Windows) or Cmd + Option + I (MacOS)."
+  },
+  {
+    "objectID": "modules/week7/week7.html#load-data-into-r",
+    "href": "modules/week7/week7.html#load-data-into-r",
+    "title": "Initial data viz in R",
+    "section": "5. Load Data into R",
+    "text": "5. Load Data into R\n\nRead CSV files\n\nUse read_csv() from tidyverse to import data\n\nExample:\nlibrary(tidyverse)\n\nmy_data &lt;- read_csv(\"data/my_data.csv\")\n\n\n\n\n\n\nNote\n\n\n\nPay attention to file paths! The path is relative to the location of your .Rmd or .qmd file. If your data file is in a different folder, you need to include the folder name in the path (e.g., data/my_file.csv mean that the file is in the data/ folder and your code file is in the code folder which is at the same level as the data folder).\nmy-data-project/ ├── data/my_data.csv ├── figures/ ├── code/draft_figure.qmd └── README.md\n\n\n\n\nCheck the imported data\n\nView the first few rows\n\nhead(my_data)\n\nCheck column names\n\ncolnames(my_data)\n\nCheck the data structure\n\nglimpse(my_data)"
+  },
+  {
+    "objectID": "modules/week7/week7.html#reshape-data-for-plotting",
+    "href": "modules/week7/week7.html#reshape-data-for-plotting",
+    "title": "Initial data viz in R",
+    "section": "6. Reshape Data for Plotting",
+    "text": "6. Reshape Data for Plotting\nMany plotting workflows work best with long-format data.\n\nConvert wide data to long format\n\nUse pivot_longer()\n\nExample\nlong_data &lt;- my_data %&gt;%\n  pivot_longer(\n    cols = starts_with(\"Sample\"),\n    names_to = \"sample\",\n    values_to = \"value\"\n  )\n\n\nVerify reshaped data\n\nInspect the new table:\n\nhead(long_data)\n\nConfirm\n\nOne observation per row\nGrouping variables separated into columns\nMeasurement values stored in a single column"
+  },
+  {
+    "objectID": "modules/week7/week7.html#make-initial-figures-with-ggplot2",
+    "href": "modules/week7/week7.html#make-initial-figures-with-ggplot2",
+    "title": "Initial data viz in R",
+    "section": "7. Make Initial Figures with ggplot2",
+    "text": "7. Make Initial Figures with ggplot2\n\nBasic scatterplot\n\nCreate a simple scatterplot\n\nggplot(long_data, aes(x = sample, y = value)) +\n  geom_point()\n\n\nBasic boxplot\n\nCreate a boxplot\n\nggplot(long_data, aes(x = sample, y = value)) +\n  geom_boxplot()\n\n\nAdd labels and themes\n\nImprove readability with labels and themes\n\nggplot(long_data, aes(x = sample, y = value)) +\n  geom_boxplot(fill = \"skyblue\") +\n  labs(\n    title = \"Initial Data Visualization\",\n    x = \"Sample\",\n    y = \"Value\"\n  ) +\n  theme_minimal()\n\n\nSave figures\n\nExport plots using ggsave()\n\nggsave(\n  \"figures/initial_plot.png\",\n  width = 6,\n  height = 4\n)"
+  },
+  {
+    "objectID": "modules/week7/week7.html#upload-draft-figures-to-github-repository",
+    "href": "modules/week7/week7.html#upload-draft-figures-to-github-repository",
+    "title": "Initial data viz in R",
+    "section": "8. Upload Draft Figures to GitHub Repository",
+    "text": "8. Upload Draft Figures to GitHub Repository\n\nUpload your figures to your research team’s git repo\n\n\n\n\n\n\n\nImportant\n\n\n\nAsk for help from your TA and from your peers! This is a steep learning curve, and I expect the process to be at least a little frustrating because you are jumping straight into the deep end of the pool so to speak… We are all learning together and we are here to support each other. Don’t hesitate to ask questions or seek guidance… These steps are bare-bones and are meant to be a starting point for you to build on and customize as you learn more about data visualization in R. The most important thing is to get something up on your GitHub repo so that you can share it with your team and get feedback on it!"
+  },
+  {
+    "objectID": "modules/week7/week7.html#core-r-tidyverse-resources",
+    "href": "modules/week7/week7.html#core-r-tidyverse-resources",
+    "title": "Initial data viz in R",
+    "section": "Core R + tidyverse Resources",
+    "text": "Core R + tidyverse Resources\n\nR Graph Gallery: Probably the single best resource for learning ggplot2 visualization by example. Hundreds of reproducible plots with explanations and code.\nggplot2 Official Documentation: Official documentation for ggplot2. Useful for understanding the grammar of graphics and looking up functions/geoms.\nTidyverse Official Site: Central hub for tidyverse packages like: - dplyr - tidyr - readr - ggplot2\nR for Data Science (2e): Free online textbook by Hadley Wickham and collaborators. One of the best beginner-to-intermediate R learning resources."
+  },
+  {
+    "objectID": "modules/week7/week7.html#tidyverse-cheatsheet",
+    "href": "modules/week7/week7.html#tidyverse-cheatsheet",
+    "title": "Initial data viz in R",
+    "section": "tidyverse Cheatsheet",
+    "text": "tidyverse Cheatsheet\n\ntidyverse Cheatsheet PDF\n\nCovers:\n\nread_csv()\npipes %&gt;%"
+  },
+  {
+    "objectID": "modules/week7/week7.html#dplyr-cheatsheet",
+    "href": "modules/week7/week7.html#dplyr-cheatsheet",
+    "title": "Initial data viz in R",
+    "section": "dplyr Cheatsheet",
+    "text": "dplyr Cheatsheet\n\ndplyr Cheatsheet PDF\n\nUseful functions:\n\nfilter()\nselect()\nmutate()\ngroup_by()\nsummarize()"
+  },
+  {
+    "objectID": "modules/week7/week7.html#tidyr-cheatsheet",
+    "href": "modules/week7/week7.html#tidyr-cheatsheet",
+    "title": "Initial data viz in R",
+    "section": "tidyr Cheatsheet",
+    "text": "tidyr Cheatsheet\n\ntidyr Cheatsheet PDF\n\nUseful functions:\n\npivot_longer()"
+  },
+  {
+    "objectID": "modules/week7/week7.html#ggplot2-cheatsheet",
+    "href": "modules/week7/week7.html#ggplot2-cheatsheet",
+    "title": "Initial data viz in R",
+    "section": "ggplot2 Cheatsheet",
+    "text": "ggplot2 Cheatsheet\n\nggplot2 Cheatsheet PDF\n\nCovers:\n\naesthetics\ngeoms\nthemes\nfacets"
+  },
+  {
+    "objectID": "modules/week7/week7.html#rstudio-ide-cheatsheet",
+    "href": "modules/week7/week7.html#rstudio-ide-cheatsheet",
+    "title": "Initial data viz in R",
+    "section": "RStudio IDE Cheatsheet",
+    "text": "RStudio IDE Cheatsheet\n\nRStudio IDE Cheatsheet PDF\n\nHelpful for learning the RStudio interface and shortcuts."
+  },
+  {
     "objectID": "modules/week5/week5.html",
     "href": "modules/week5/week5.html",
     "title": "Demo Day! Experiment records and data upload to GitHub",
@@ -193,7 +298,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nEstablish research teams & make a Git repo\n\n\nWeek 2 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nRefine Experiment & Write Letter of Intent (LOI)\n\n\nWeek 3 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nProposal pitch & upload to GitHub\n\n\nWeek 4 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nDemo Day! Experiment records and data upload to GitHub\n\n\nWeek 5 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments start!\n\n\nWeek 6 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical tests in R\n\n\nWeek 7 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nPresent Initial Results\n\n\nWeek 8 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience writing: a mini paper\n\n\nWeek 9 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience communication: research talks\n\n\nWeek 10 Lab\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nEstablish research teams & make a Git repo\n\n\nWeek 2 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nRefine Experiment & Write Letter of Intent (LOI)\n\n\nWeek 3 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nProposal pitch & upload to GitHub\n\n\nWeek 4 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nDemo Day! Experiment records and data upload to GitHub\n\n\nWeek 5 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments start!\n\n\nWeek 6 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data viz in R\n\n\nWeek 7 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nPresent Initial Results\n\n\nWeek 8 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience writing: a mini paper\n\n\nWeek 9 Lab\n\n\n\n\n\n\n\n\n\n\n\n\nScience communication: research talks\n\n\nWeek 10 Lab\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "modules/week1/week1.html",
@@ -235,7 +340,7 @@
     "href": "modules/week6/week6.html",
     "title": "Experiments start!",
     "section": "",
-    "text": "Each research team member will link their data sheet(s) and upload notes on experimental setup, methods, and protocols to their github repo README in Week 5 Lab. Each member needs to upload at least 1 item. You will be graded individually for checking this off.\n\n\n\n\nSet up your experimental tanks\nSelect your crabs!\nLabel EVERYTHING\nRun any initial trials as per your research team’s plan\nRecord methods with photographs and written protocols\nUpload records into github repo"
+    "text": "Each research team member will link their data sheet(s) and upload notes on experimental setup, methods, and protocols to their github repo README in Week 6 Lab. Each member needs to upload at least 1 item. You will be graded individually for checking this off.\n\n\n\n\nSet up your experimental tanks\nSelect your crabs!\nLabel EVERYTHING\nRun any initial trials as per your research team’s plan\nRecord methods with photographs and written protocols\nUpload records into github repo"
   },
   {
     "objectID": "modules/week6/week6.html#protocols",

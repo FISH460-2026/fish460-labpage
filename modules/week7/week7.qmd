@@ -1,15 +1,348 @@
 ---
-title: "Statistical tests in R"
+title: "Initial data viz in R"
 subtitle: "Week 7 Lab"
-image: "lab_loading.png"
+image: "copper_metal_crab.jpg"
 
 draft: false
 
 about:
   id: description
   template: trestles
-  image: "lab_loading.png"
+  image: "copper_metal_crab.jpg"
   
 page-layout: full
 title-block-banner: true  
 ---
+
+::: {#description}
+#### Lab Assignment:
+
+Each research team member will upload an initial figure generated in R to their github repo README in Week 7 Lab. **Each member needs to upload at least 1 figure.** You will be graded individually for checking this off.
+
+#### 🎯 Lab Goals:
+
+1.  Collect data as per your research team's plan
+
+2.  Download data files
+
+3.  Load data into R
+
+4.  Reshape data for plotting
+
+5.  Make an initial figure
+
+6.  Upload draft data figures into github repo
+
+:::
+
+# Data Visualization Workflow Checklist
+
+::: callout-important
+Only do the download software steps IF YOU DO NOT ALREADY HAVE R and RStudio on your laptop!
+:::
+
+## 1. Download Required Software
+
+### Install R
+
+-   [ ] Go to the <https://cran.r-project.org/>
+-   [ ] Download the version for your operating system:
+    -   Windows
+    -   MacOS
+    -   Linux
+-   [ ] Run the installer and follow the default installation steps
+
+### Install RStudio
+
+-   [ ] Go to <https://posit.co/download/rstudio-desktop/>
+-   [ ] Download the free version of RStudio Desktop
+-   [ ] Install RStudio after R is already installed
+
+## 2. Open RStudio and Create an RStudio Project
+
+-   [ ] In RStudio:
+    -   File → New Project
+    -   Existing Directory OR New Directory
+-   [ ] Select your project folder (or create a new one)
+
+Using an RStudio Project helps keep file paths organized and reproducible.
+
+## 3. Download and Organize Data Files
+
+-   [ ] Download your data files as `.csv` !
+-   [ ] Create folders in your project to keep things organized
+
+Example project structure:
+
+``` text
+my-data-project/
+├── data/
+├── figures/
+├── code/
+└── README.md
+```
+
+-   [ ] Place all CSV files into the `data/` folder
+
+::: callout-important
+You cannot drag and drop files from your computer into RStudio. You need to use the file explorer on your computer to move files into the correct folder in your project directory! Once files are in the correct folder, you can use RStudio's file pane to navigate to the file and click on it to open it and edit it in RStudio.
+:::
+
+## 4. Open an .Rmd or .qmd file & Install Required Packages 
+
+In your files view pane, navigate to the code/ folder and open a new .Rmd or .qmd file by clicking the `New File` dropdown
+
+### Install tidyverse
+
+-   [ ] In the Console, run `r install.packages("tidyverse")` 
+
+### Load tidyverse
+-   [ ] After installation finishes, load the package by inserting a code chunk and running `r library(tidyverse)`
+
+::: callout-note
+You can insert a code chunk into a .Rmd or .qmd file with the hotkey `Ctrl + Alt + I` (Windows) or `Cmd + Option + I` (MacOS).
+:::
+
+
+## 5. Load Data into R
+
+### Read CSV files
+
+-   [ ] Use `read_csv()` from tidyverse to import data
+
+Example:
+
+``` r
+library(tidyverse)
+
+my_data <- read_csv("data/my_data.csv")
+```
+
+::: callout-note
+Pay attention to file paths! The path is relative to the location of your .Rmd or .qmd file. If your data file is in a different folder, you need to include the folder name in the path (e.g., `data/my_file.csv` mean that the file is in the `data/` folder and your code file is in the code folder which is at the same level as the data folder).
+
+my-data-project/
+├── data/my_data.csv
+├── figures/
+├── code/draft_figure.qmd
+└── README.md
+:::
+
+### Check the imported data
+
+-   [ ] View the first few rows
+
+``` r
+head(my_data)
+```
+
+-   [ ] Check column names
+
+``` r
+colnames(my_data)
+```
+
+-   [ ] Check the data structure
+
+``` r
+glimpse(my_data)
+```
+
+
+## 6. Reshape Data for Plotting
+
+Many plotting workflows work best with **long-format** data.
+
+### Convert wide data to long format
+
+-   [ ] Use `pivot_longer()`
+
+Example
+
+``` r
+long_data <- my_data %>%
+  pivot_longer(
+    cols = starts_with("Sample"),
+    names_to = "sample",
+    values_to = "value"
+  )
+```
+
+### Verify reshaped data
+
+-   [ ] Inspect the new table:
+
+``` r
+head(long_data)
+```
+
+-   [ ] Confirm
+    -   One observation per row
+    -   Grouping variables separated into columns
+    -   Measurement values stored in a single column
+
+
+## 7. Make Initial Figures with ggplot2
+
+### Basic scatterplot
+
+-   [ ] Create a simple scatterplot
+
+``` r
+ggplot(long_data, aes(x = sample, y = value)) +
+  geom_point()
+```
+
+### Basic boxplot
+
+-   [ ] Create a boxplot
+
+``` r
+ggplot(long_data, aes(x = sample, y = value)) +
+  geom_boxplot()
+```
+
+### Add labels and themes
+
+-   [ ] Improve readability with labels and themes
+
+``` r
+ggplot(long_data, aes(x = sample, y = value)) +
+  geom_boxplot(fill = "skyblue") +
+  labs(
+    title = "Initial Data Visualization",
+    x = "Sample",
+    y = "Value"
+  ) +
+  theme_minimal()
+```
+
+### Save figures
+
+-   [ ] Export plots using `ggsave()`
+
+``` r
+ggsave(
+  "figures/initial_plot.png",
+  width = 6,
+  height = 4
+)
+```
+
+## 8. Upload Draft Figures to GitHub Repository
+
+-   [ ] Upload your figures to your research team's git repo
+
+::: callout-important
+Ask for help from your TA and from your peers! This is a steep learning curve, and I expect the process to be at least a little frustrating because you are jumping straight into the deep end of the pool so to speak... We are all learning together and we are here to support each other. Don't hesitate to ask questions or seek guidance... These steps are bare-bones and are meant to be a starting point for you to build on and customize as you learn more about data visualization in R. The most important thing is to get something up on your GitHub repo so that you can share it with your team and get feedback on it!
+:::
+
+# R Resources for Data Visualization and Analysis
+
+## Core R + tidyverse Resources
+
+- [R Graph Gallery](https://r-graph-gallery.com/): Probably the single best resource for learning `ggplot2` visualization by example. Hundreds of reproducible plots with explanations and code.
+
+- [ggplot2 Official Documentation](https://ggplot2.tidyverse.org/): Official documentation for `ggplot2`. Useful for understanding the grammar of graphics and looking up functions/geoms.
+
+- [Tidyverse Official Site](https://www.tidyverse.org/): Central hub for tidyverse packages like: - `dplyr` - `tidyr` - `readr` - `ggplot2`
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/): Free online textbook by Hadley Wickham and collaborators. One of the best beginner-to-intermediate R learning resources.
+
+# Cheatsheets
+
+## tidyverse Cheatsheet
+
+-   [tidyverse Cheatsheet PDF](https://rstudio.github.io/cheatsheets/html/data-import.html)
+
+Covers:
+
+- `read_csv()`
+
+- pipes `%>%`
+
+## dplyr Cheatsheet
+
+-   [dplyr Cheatsheet PDF](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
+
+Useful functions:
+
+- `filter()`
+
+- `select()`
+
+- `mutate()`
+
+- `group_by()`
+
+- `summarize()`
+
+## tidyr Cheatsheet
+
+-   [tidyr Cheatsheet PDF](https://rstudio.github.io/cheatsheets/html/tidyr.html)
+
+Useful functions:
+
+- `pivot_longer()`
+
+## ggplot2 Cheatsheet
+
+-   [ggplot2 Cheatsheet PDF](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
+
+Covers:
+
+- aesthetics
+
+- geoms
+
+- themes
+
+- facets
+
+## RStudio IDE Cheatsheet
+
+-   [RStudio IDE Cheatsheet PDF](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
+
+Helpful for learning the RStudio interface and shortcuts.
+
+# Helpful Visualization Resources
+
+-   [ggplot2 Extensions Gallery](https://exts.ggplot2.tidyverse.org/gallery/)
+
+    Shows add-on packages for specialized plotting.
+
+-   [Awesome R Dataviz](https://krzjoa.github.io/awesome-r-dataviz/)
+
+    Large curated ecosystem of R visualization tools and examples.
+
+# Practice Datasets
+
+-   [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
+
+    Beginner-friendly dataset commonly used instead of iris.
+
+# Typical Beginner Workflow
+
+``` r
+# 1. Load packages
+library(tidyverse)
+
+# 2. Import data
+my_data <- read_csv("data/my_file.csv")
+
+# 3. Reshape data
+long_data <- my_data %>%
+  pivot_longer(
+    cols = starts_with("Sample"),
+    names_to = "sample",
+    values_to = "value"
+  )
+
+# 4. Make a plot
+ggplot(long_data, aes(x = sample, y = value)) +
+  geom_boxplot()
+
+# 5. Save the figure
+ggsave("figures/my_plot.png")
+
+```
