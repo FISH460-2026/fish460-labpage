@@ -1,7 +1,7 @@
 ---
-title: "Present Initial Results"
+title: "Collect Final Results"
 subtitle: "Week 8 Lab"
-image: "lab_loading.png"
+image: "week1.jpg"
 
 draft: false
 

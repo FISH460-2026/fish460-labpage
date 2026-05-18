@@ -298,7 +298,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstablish research teams & make a Git repo\n\n\nWeek 2 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nRefine Experiment & Write Letter of Intent (LOI)\n\n\nWeek 3 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProposal pitch & upload to GitHub\n\n\nWeek 4 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemo Day! Experiment records and data upload to GitHub\n\n\nWeek 5 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments start!\n\n\nWeek 6 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data viz in R\n\n\nWeek 7 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresent Initial Results\n\n\nWeek 8 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience writing: a mini paper\n\n\nWeek 9 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience communication: research talks\n\n\nWeek 10 Lab\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\n\n\nWelcome to FISH 460 Lab - Applied Marine Animal Physiology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrab Projects Intro and Management with GitHub\n\n\nWeek 1 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstablish research teams & make a Git repo\n\n\nWeek 2 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nRefine Experiment & Write Letter of Intent (LOI)\n\n\nWeek 3 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProposal pitch & upload to GitHub\n\n\nWeek 4 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemo Day! Experiment records and data upload to GitHub\n\n\nWeek 5 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments start!\n\n\nWeek 6 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data viz in R\n\n\nWeek 7 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollect Final Results\n\n\nWeek 8 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience writing: a mini paper\n\n\nWeek 9 Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience communication: research talks\n\n\nWeek 10 Lab\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "modules/week1/week1.html",
@@ -352,14 +352,14 @@
   {
     "objectID": "modules/week8/week8.html",
     "href": "modules/week8/week8.html",
-    "title": "Present Initial Results",
+    "title": "Collect Final Results",
     "section": "",
     "text": "This week you will be recording your final time measurements for your crab projects (woohoo!)\n\n\nYour “exit ticket” this week is slightly longer than in previous weeks, and as such, you have slightly more time to complete it. Now that you have all your data, create an outline for your mini paper that is due next week. Your outline should include the following:\n\nYour Research Question\nYour Hypothesis\nKey figure(s) (visualize your data!!!)\n\nThis should include any figures you plan on including in your final paper\nRubric element for final paper indicates what we expect: “Figure is well chosen given the data, axes and title are labelled appropriately, use of color highlights differences between treatments.”\n\nYour key takeway for each figure / result\n\nThe purpose for this slightly longer exit ticket is to give us an opportunity to check that you’re on track with your data interpretation for your question before you submit your paper. Plus, all of the material in this outline can be used in your final paper so it gives you a head start on writing!\nDue Dates (to github repository - 1 per GROUP):\n\nMonday Lab (AA): due Tuesday, 5/19, @ 4:30 pm\nTuesday Lab (AB): due Wednesday, 5/20, @ 4:30 pm\n\nAll of the written portions of this assingment should be less than 1 page combined"
   },
   {
     "objectID": "modules/week8/week8.html#final-measurements-week",
     "href": "modules/week8/week8.html#final-measurements-week",
-    "title": "Present Initial Results",
+    "title": "Collect Final Results",
     "section": "",
     "text": "This week you will be recording your final time measurements for your crab projects (woohoo!)\n\n\nYour “exit ticket” this week is slightly longer than in previous weeks, and as such, you have slightly more time to complete it. Now that you have all your data, create an outline for your mini paper that is due next week. Your outline should include the following:\n\nYour Research Question\nYour Hypothesis\nKey figure(s) (visualize your data!!!)\n\nThis should include any figures you plan on including in your final paper\nRubric element for final paper indicates what we expect: “Figure is well chosen given the data, axes and title are labelled appropriately, use of color highlights differences between treatments.”\n\nYour key takeway for each figure / result\n\nThe purpose for this slightly longer exit ticket is to give us an opportunity to check that you’re on track with your data interpretation for your question before you submit your paper. Plus, all of the material in this outline can be used in your final paper so it gives you a head start on writing!\nDue Dates (to github repository - 1 per GROUP):\n\nMonday Lab (AA): due Tuesday, 5/19, @ 4:30 pm\nTuesday Lab (AB): due Wednesday, 5/20, @ 4:30 pm\n\nAll of the written portions of this assingment should be less than 1 page combined"
   }
