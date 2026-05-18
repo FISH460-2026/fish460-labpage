@@ -13,3 +13,33 @@ about:
 page-layout: full
 title-block-banner: true  
 ---
+
+## Final Measurements Week!
+
+This week you will be recording your final time measurements for your crab projects (woohoo!)
+
+### Exit Ticket
+
+Your "exit ticket" this week is slightly longer than in previous weeks, and as such, you have slightly more time to complete it. Now that you have all your data, create an outline for your mini paper that is due next week. Your outline should include the following:
+
+-   Your Research Question
+
+-   Your Hypothesis
+
+-   Key figure(s) (visualize your data!!!)
+
+    -   This should include any figures you plan on including in your final paper
+
+    -   Rubric element for final paper indicates what we expect: "Figure is well chosen given the data, axes and title are labelled appropriately, use of color highlights differences between treatments."
+
+-   Your key takeway for each figure / result
+
+The purpose for this slightly longer exit ticket is to give us an opportunity to check that you're on track with your data interpretation for your question before you submit your paper. Plus, all of the material in this outline can be used in your final paper so it gives you a head start on writing!
+
+Due Dates (to github repository **- 1 per GROUP**):
+
+-   Monday Lab (AA): due Tuesday, 5/19, \@ 4:30 pm
+
+-   Tuesday Lab (AB): due Wednesday, 5/20, \@ 4:30 pm
+
+**All of the [written portions]{.underline} of this assingment should be less than 1 page combined**
